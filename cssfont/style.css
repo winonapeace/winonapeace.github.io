@@ -1,0 +1,121 @@
+div{ 
+	position: absolute;	
+}
+
+.R_box{
+	width: 200px;
+	height: 400px;
+	background-color: rgb(0,0,255);
+
+}
+
+.R_counter{
+	width: 300px;
+	height: 200px;
+	border-radius: 300px;
+	background-color: rgb(0,0,255);
+	top: 7px;
+	left: 50px;
+}
+
+.R_stem{
+	width: 320px;
+	height: 200px;
+	border-top-right-radius: 150px;
+	background-color: rgb(0,0,255);
+	top: 207px;
+	left: 50px;
+}
+
+
+.A_lines
+{
+	width: 50px;
+	height: 5px;
+	top: 230px;
+	left: 575px;
+	background-color: white;
+}
+
+.A
+{
+	width: 0px;
+	height: 0px;
+	border-left: 200px solid transparent;
+	border-right: 200px solid transparent;
+	border-bottom: 400px solid rgb(0,0,255);
+	left: 400px;
+
+}
+
+
+
+.N_bend1{
+	width: 150px;
+	height:150px;
+	border-radius: 300px;
+	background-color: rgb(0,0,255);
+	left: 850px;
+}
+
+
+.N_bend2{
+	width: 150px;
+	height:150px;
+	border-radius: 300px;
+	background-color: rgb(0,0,255);
+	top: 250px;
+	left: 1100px;
+}
+
+.N_box1 {
+	width: 200px;
+	height:400px;
+	border-top-left-radius: 100px;
+	background-color: rgb(0,0,255);
+	top: 0px;
+	left: 850px;
+}
+
+.N_box2 {
+	width: 200px;
+	height:400px;
+	border-bottom-right-radius: 100px;
+	background-color: rgb(0,0,255);
+	top: 0px;
+	left: 1050px;
+}
+
+.G_line1 {
+	width: 300px;
+	height: 5px;
+	background-color: white;
+	top: 795px;
+	left: 100px;
+}
+
+.G_line2 {
+	width: 5px;
+	height: 300px;
+	background-color: white;
+	top: 595px;
+	left: 200px;
+}
+
+.G_circle {
+	width: 400px;
+	height:400px;
+	border-radius: 200px;
+	background-color: rgb(0,0,255);
+	top: 600px;
+	left: 0px;
+}
+
+.G_cut {
+	width: 200px;
+	height:200px;
+	border-top-right-radius: 200px;
+	background-color: white;
+	top: 600px;
+	left: 200px;
+}
