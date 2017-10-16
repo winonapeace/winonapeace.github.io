@@ -2,38 +2,93 @@ div{
 	position: absolute;	
 }
 
+.R_line1{
+	width: 5px;
+	height: 75px;
+	background-color: white;
+	top: 75px;
+	left: 175px;
+
+}
+
+.R_line2{
+	width: 5px;
+	height: 175px;
+	background-color: white;
+	top: 300px;
+	left: 185px;
+
+}
+
 .R_box{
 	width: 200px;
 	height: 400px;
-	background-color: rgb(0,0,255);
+	background-color: rgb(78,96,255);
 
 }
 
 .R_counter{
 	width: 300px;
-	height: 200px;
+	height: 200.5px;
 	border-radius: 300px;
-	background-color: rgb(0,0,255);
+	background-color: rgb(78,96,255);
 	top: 7px;
 	left: 50px;
 }
 
 .R_stem{
 	width: 320px;
-	height: 200px;
+	height: 200.5px;
 	border-top-right-radius: 150px;
-	background-color: rgb(0,0,255);
+	background-color: rgb(78,96,255);
 	top: 207px;
 	left: 50px;
 }
 
+.A_round
+{
+	width: 30px;
+	height: 15px;
+	border-top-left-radius: 17px;
+	border-top-right-radius: 17px;
+	top: 27px;
+	left: 585px;
+	background-color: rgb(78,96,255);
+}
 
-.A_lines
+.A_white
+{
+	width: 50px;
+	height: 35px;
+	top: 0px;
+	left: 583px;
+	background-color: white;
+}
+
+.A_line1
 {
 	width: 50px;
 	height: 5px;
 	top: 230px;
 	left: 575px;
+	background-color: white;
+}
+
+.A_line2
+{
+	width: 50px;
+	height: 5px;
+	top: 330px;
+	left: 575px;
+	background-color: white;
+}
+
+.A_line3
+{
+	width: 5px;
+	height: 100px;
+	top: 331px;
+	left: 598px;
 	background-color: white;
 }
 
@@ -43,62 +98,60 @@ div{
 	height: 0px;
 	border-left: 200px solid transparent;
 	border-right: 200px solid transparent;
-	border-bottom: 400px solid rgb(0,0,255);
+	border-bottom: 400px solid rgb(78,96,255);
 	left: 400px;
 
 }
 
 
 
-.N_bend1{
-	width: 150px;
-	height:150px;
-	border-radius: 300px;
-	background-color: rgb(0,0,255);
-	left: 850px;
+.N_line1{
+	width: 5px;
+	height: 260px;
+	background-color: white;
+	top: 150px;
+	left: 970px;
 }
 
 
-.N_bend2{
-	width: 150px;
-	height:150px;
-	border-radius: 300px;
-	background-color: rgb(0,0,255);
-	top: 250px;
-	left: 1100px;
+.N_line2{
+	width: 5px;
+	height: 250px;
+	background-color: white;
+	left: 1115px;
 }
 
 .N_box1 {
-	width: 200px;
+	width: 200.5px;
 	height:400px;
 	border-top-left-radius: 100px;
-	background-color: rgb(0,0,255);
-	top: 0px;
+	background-color: rgb(78,96,255);
+	top: 8px;
 	left: 850px;
 }
 
 .N_box2 {
-	width: 200px;
+	width: 200.5px;
 	height:400px;
 	border-bottom-right-radius: 100px;
-	background-color: rgb(0,0,255);
-	top: 0px;
+	background-color: rgb(78,96,255);
+	top: 8px;
 	left: 1050px;
 }
 
 .G_line1 {
-	width: 300px;
+	width: 50px;
 	height: 5px;
 	background-color: white;
 	top: 795px;
-	left: 100px;
+	left: 150px;
 }
 
 .G_line2 {
 	width: 5px;
-	height: 300px;
+	height: 50px;
 	background-color: white;
-	top: 595px;
+	top: 795px;
 	left: 200px;
 }
 
@@ -106,7 +159,7 @@ div{
 	width: 400px;
 	height:400px;
 	border-radius: 200px;
-	background-color: rgb(0,0,255);
+	background-color: rgb(78,96,255);
 	top: 600px;
 	left: 0px;
 }
@@ -118,4 +171,104 @@ div{
 	background-color: white;
 	top: 600px;
 	left: 200px;
+}
+
+
+.E_line1 {
+	width: 50px;
+	height:5px;
+	background-color: white;
+	top: 728px;
+	left: 583px;
+}
+
+.E_line2 {
+	width: 50px;
+	height:5px;
+	background-color: white;
+	top: 860px;
+	left: 681px;
+}
+
+.E_line3 {
+	width: 5px;
+	height:50px;
+	background-color: white;
+	top: 728px;
+	left: 630px;
+}
+
+.E_line4 {
+	width: 5px;
+	height:50px;
+	background-color: white;
+	top: 865px;
+	left: 730px;
+}
+
+
+.E_box1 {
+	width: 200px;
+	height:133.3px;
+	background-color: rgb(78,96,255);
+	top: 600px;
+	left: 430px;
+}
+
+.E_box2 {
+	width: 300px;
+	height:133.3px;
+	background-color: rgb(78,96,255);
+	top: 733.3px;
+	left: 430px;
+}
+
+.E_box3 {
+	width: 400px;
+	height:133.4px;
+	background-color: rgb(78,96,255);
+	top: 866.3px;
+	left: 430px;
+}
+
+
+.S_counter1 {
+	width: 350px;
+	height: 200px;
+	top:600px;
+	left: 860px;
+	border-top-left-radius: 200px;
+	border-top-right-radius: 200px;
+	background-color: rgb(78,96,255);
+	transform: rotate(-45deg);
+}
+
+.S_counter2 {
+	width: 350px;
+	height: 200px;
+	top:790px;
+	left: 960px;
+	border-top-left-radius: 200px;
+	border-top-right-radius: 200px;
+	background-color: rgb(78,96,255);
+	transform: rotate(135deg);
+}
+
+.S_box {
+	width: 150px;
+	height: 100px;
+	top:750px;
+	left: 1010px;
+	background-color: rgb(78,96,255);
+	transform: rotate(135deg);
+}
+
+.description {
+	top: 1200px;
+	left: 0px;
+	font-family: Helvetica;
+	font-size: 28px;
+	width: 400px;
+	line-height: 46px
+	font-weight: normal;
 }
