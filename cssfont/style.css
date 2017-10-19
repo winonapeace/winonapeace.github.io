@@ -263,12 +263,32 @@ div{
 	transform: rotate(135deg);
 }
 
-.description {
+.description1 {
 	top: 1200px;
 	left: 0px;
 	font-family: Helvetica;
-	font-size: 28px;
+	font-size: 15px;
 	width: 400px;
-	line-height: 46px
+	line-height: 23px
+	font-weight: normal;
+}
+
+.description2 {
+	top: 1200px;
+	left: 450px;
+	font-family: Helvetica;
+	font-size: 15px;
+	width: 400px;
+	line-height: 23px
+	font-weight: normal;
+}
+
+.description3 {
+	top: 1200px;
+	left: 900px;
+	font-family: Helvetica;
+	font-size: 15px;
+	width: 400px;
+	line-height: 23px
 	font-weight: normal;
 }
