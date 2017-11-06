@@ -5,19 +5,18 @@ div{
 
 a:link{
 	color: red;
-	opacity: 0.8;
+	opacity: 0.9;
 	text-decoration:  none;
 }
 
 a:hover { 
-	color: black;
 	opacity: 0.5;
-	transition: all 0.5s ease;
+	transition: all 0.25s ease;
 	text-decoration:  none; 
 }
 a:visited {
 	color: red;
-	opacity: 0.8;
+	opacity: 0.9;
 	text-decoration:  none;
 }
 
@@ -67,7 +66,6 @@ a:visited {
 	left: 700px;
 	font-size: 33px;
 	font-family: ’ヒラギノ角ゴ Pro W3’, ‘Hiragino Kaku Gothic Pro’, メイリオ, Meiryo, Osaka, ‘MS Pゴシック’, ‘MS PGothic’, sans-serif;
-	max-width: 800px;
 }
 
 .lyric_e{

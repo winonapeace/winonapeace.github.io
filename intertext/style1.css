@@ -5,14 +5,13 @@ div{
 
 a:link{
 	color: red;
-	opacity: 0.8;
+	opacity: 0.9;
 	text-decoration:  none;
 }
 
 a:hover { 
-	color: black;
 	opacity: 0.5;
-	transition: all 0.5s ease;
+	transition: all 0.25s ease;
 	text-decoration:  none; 
 }
 a:visited {
