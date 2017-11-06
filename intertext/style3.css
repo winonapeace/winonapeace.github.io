@@ -10,9 +10,8 @@ a:link{
 }
 
 a:hover { 
-	color: black;
 	opacity: 0.5;
-	transition: all 0.25s ease;
+	transition: all 0.3s linear;
 	text-decoration:  none; 
 }
 a:visited {
