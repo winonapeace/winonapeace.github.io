@@ -2,6 +2,25 @@ div{
 
 }
 
+
+a:link{
+	  text-decoration:  none;
+	color: white;
+}
+
+a:visited {
+  /* Applies to all visited links */
+  text-decoration:  none;
+  color:            white;
+  } 
+
+
+a:hover { 
+	color: red;
+	opacity: 0.8;
+	transition: all 0.5s ease; 
+}
+
 .coda{
 	position: absolute;
 	font-size: 400px;
