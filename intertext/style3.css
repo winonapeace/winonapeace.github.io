@@ -23,7 +23,7 @@ a:visited {
 
 .circle{
 	position: absolute;
-	top: 400px;
+	top: 490px;
 	left: 1050px;
 	font-size: 200px;
 	color: red;
@@ -38,7 +38,7 @@ a:visited {
 	left: -50px;
 	font-family: 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
 	color: rgb(80,80,80);
-	opacity: 0.3;
+	opacity: 0.15;
 }
 
 .kanji2{
@@ -48,7 +48,7 @@ a:visited {
 	top: 100px;
 	left: 400px;
 	color: rgb(80,80,80);
-	opacity: 0.3;
+	opacity: 0.15;
 }
 
 .kanji3{
@@ -58,7 +58,7 @@ a:visited {
 	left: 800px;
 	font-family: 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
 	color: rgb(80,80,80);
-	opacity: 0.3;
+	opacity: 0.15;
 }
 
 .lyric_j{
@@ -80,7 +80,7 @@ a:visited {
 .form1{ 
 	position: absolute;
 	font-size: 55px;
-	top: 690px;
+	top: 760px;
 	left: 25px;
 	font-family: ’ヒラギノ角ゴ Pro W3’, ‘Hiragino Kaku Gothic Pro’, メイリオ, Meiryo, Osaka, ‘MS Pゴシック’, ‘MS PGothic’, sans-serif;
 
@@ -89,7 +89,7 @@ a:visited {
 .reading_kanji1{
 	position: absolute;
 	font-size: 20px;
-	top: 700px;
+	top: 770px;
 	left: 100px;
 	font-family: ’ヒラギノ角ゴ Pro W3’, ‘Hiragino Kaku Gothic Pro’, メイリオ, Meiryo, Osaka, ‘MS Pゴシック’, ‘MS PGothic’, sans-serif;
 	max-width: 300px;
@@ -99,7 +99,7 @@ a:visited {
 .form2{ 
 	position: absolute;
 	font-size: 55px;
-	top: 690px;
+	top: 760px;
 	left: 480px;
 	font-family: ’ヒラギノ角ゴ Pro W3’, ‘Hiragino Kaku Gothic Pro’, メイリオ, Meiryo, Osaka, ‘MS Pゴシック’, ‘MS PGothic’, sans-serif;
 
@@ -108,7 +108,7 @@ a:visited {
 .reading_kanji2{
 	position: absolute;
 	font-size: 20px;
-	top: 700px;
+	top: 770px;
 	left: 560px;
 	font-family: ’ヒラギノ角ゴ Pro W3’, ‘Hiragino Kaku Gothic Pro’, メイリオ, Meiryo, Osaka, ‘MS Pゴシック’, ‘MS PGothic’, sans-serif;
 	max-width: 300px;
@@ -117,7 +117,7 @@ a:visited {
 .form3{ 
 	position: absolute;
 	font-size: 55px;
-	top: 690px;
+	top: 760px;
 	left: 920px;
 	font-family: ’ヒラギノ角ゴ Pro W3’, ‘Hiragino Kaku Gothic Pro’, メイリオ, Meiryo, Osaka, ‘MS Pゴシック’, ‘MS PGothic’, sans-serif;
 
@@ -126,7 +126,7 @@ a:visited {
 .reading_kanji3{
 	position: absolute;
 	font-size: 20px;
-	top: 700px;
+	top: 770px;
 	left: 1000px;
 	font-family: ’ヒラギノ角ゴ Pro W3’, ‘Hiragino Kaku Gothic Pro’, メイリオ, Meiryo, Osaka, ‘MS Pゴシック’, ‘MS PGothic’, sans-serif;
 	max-width: 300px;
