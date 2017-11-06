@@ -1,0 +1,98 @@
+div{
+		position: absolute;
+
+}
+.kanji1{
+	position: absolute;
+	font-size: 650px;
+	top: -100px;
+	left: -50px;
+	font-family: 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+	color: rgb(80,80,80);
+	opacity: 0.3;
+}
+
+.kanji2{
+	position: absolute;
+	font-size: 650px;
+	font-family: 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+	top: 100px;
+	left: 400px;
+	color: rgb(80,80,80);
+	opacity: 0.3;
+}
+
+.kanji3{
+	position: absolute;
+	font-size: 650px;
+	top: -100px;
+	left: 800px;
+	font-family: 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+	color: rgb(80,80,80);
+	opacity: 0.3;
+}
+
+.lyric{
+	color: rgb(240, 35, 43);
+	top: 75px;
+	left: 700px;
+	font-size: 33px;
+	font-family: ’ヒラギノ角ゴ Pro W3’, ‘Hiragino Kaku Gothic Pro’, メイリオ, Meiryo, Osaka, ‘MS Pゴシック’, ‘MS PGothic’, sans-serif;
+}
+
+.form1{ 
+	position: absolute;
+	font-size: 55px;
+	top: 690px;
+	left: 25px;
+	font-family: ’ヒラギノ角ゴ Pro W3’, ‘Hiragino Kaku Gothic Pro’, メイリオ, Meiryo, Osaka, ‘MS Pゴシック’, ‘MS PGothic’, sans-serif;
+
+ }
+
+.reading_kanji1{
+	position: absolute;
+	font-size: 20px;
+	top: 700px;
+	left: 100px;
+	font-family: ’ヒラギノ角ゴ Pro W3’, ‘Hiragino Kaku Gothic Pro’, メイリオ, Meiryo, Osaka, ‘MS Pゴシック’, ‘MS PGothic’, sans-serif;
+	max-width: 300px;
+
+}
+
+.form2{ 
+	position: absolute;
+	font-size: 55px;
+	top: 690px;
+	left: 480px;
+	font-family: ’ヒラギノ角ゴ Pro W3’, ‘Hiragino Kaku Gothic Pro’, メイリオ, Meiryo, Osaka, ‘MS Pゴシック’, ‘MS PGothic’, sans-serif;
+
+ }
+
+.reading_kanji2{
+	position: absolute;
+	font-size: 20px;
+	top: 700px;
+	left: 560px;
+	font-family: ’ヒラギノ角ゴ Pro W3’, ‘Hiragino Kaku Gothic Pro’, メイリオ, Meiryo, Osaka, ‘MS Pゴシック’, ‘MS PGothic’, sans-serif;
+	max-width: 300px;
+}
+
+.form3{ 
+	position: absolute;
+	font-size: 55px;
+	top: 690px;
+	left: 920px;
+	font-family: ’ヒラギノ角ゴ Pro W3’, ‘Hiragino Kaku Gothic Pro’, メイリオ, Meiryo, Osaka, ‘MS Pゴシック’, ‘MS PGothic’, sans-serif;
+
+ }
+
+.reading_kanji3{
+	position: absolute;
+	font-size: 20px;
+	top: 700px;
+	left: 1000px;
+	font-family: ’ヒラギノ角ゴ Pro W3’, ‘Hiragino Kaku Gothic Pro’, メイリオ, Meiryo, Osaka, ‘MS Pゴシック’, ‘MS PGothic’, sans-serif;
+	max-width: 300px;
+
+}
+
