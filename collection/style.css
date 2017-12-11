@@ -1,0 +1,294 @@
+div{
+	position: absolute;
+}
+
+body{ background-color: black }
+
+a:link{
+	  text-decoration:  none;
+	color: white;
+}
+
+a:visited {
+  /* Applies to all visited links */
+  text-decoration:  none;
+  color:            white;
+  } 
+
+
+a:hover { 
+	color: yellow;
+	opacity: 1;
+	font-style: italic; 
+	transition: all 0.5s linear;
+}
+
+
+.header{
+	font-family: Helvetica, Sans-Serif;
+	font-size: 100px;
+	font-style: italic;
+	font-variant: small-caps;
+	font-weight: 700;
+	line-height: 26.4px;
+	color: white;
+	background-color: rgb(56,48,156);
+	width: 100%;
+	height: 100px;
+	top: 90px;
+
+}
+
+
+.List{
+	font-family: 'Tauri', Helvetica,  sans-serif;
+	top: 200px;
+	width: 350px;
+	height: 600px;
+	line-height: 40px;
+	color: white;
+	margin-left: 40px;
+
+
+}
+
+.List_bg{
+	background-color: rgb(70,70,70);
+	font-family: Helvetica;
+	top: 100px;
+	width: 300px;
+	height: 600px;
+	line-height: 40px;
+	background-color: rgb(26,22,93);
+	
+
+}
+
+.box1{
+	width: 330px;
+	height: 250px;
+	background-color: yellow;
+	left: 400px;
+	top: 230px;
+	overflow: hidden;
+}
+
+.box1 img{
+   display:block; /*remove inline-block spaces*/
+   margin:0 -29.138%;
+   width:133.275%;  
+}
+
+.box1_description{
+
+	width: 310px;
+	padding-left: 20px;
+	height: 240px;
+	padding-top: 10px;
+	font-family: Helvetica;
+	font-size: 50px;
+	font-weight: 700;
+	font-variant: small-caps;
+	left: 400px;
+	top: 230px;
+	color: white;
+	opacity: 0;
+	transition: all 0.2s linear;
+	background-color: rgba(57,3,120,.4);
+}
+
+.box1_description:hover{
+	opacity: 1;
+
+}
+
+.box2{
+	width: 330px;
+	height: 250px;
+	background-color: yellow;
+	left: 800px;
+	top: 230px;
+	overflow: hidden;
+}
+
+.box2 img{
+   display:block; /*remove inline-block spaces*/
+   margin:0 -29.138%;
+   width:133.275%;  
+}
+
+.box2_description{
+
+	width: 310px;
+	padding-left: 20px;
+	height: 240px;
+	padding-top: 10px;
+	left: 800px;
+	top: 230px;
+	font-family: Helvetica;
+	font-size: 50px;
+	font-weight: 700;
+	font-variant: small-caps;
+	color: white;
+	opacity: 0;
+	transition: all 0.2s linear;
+	background-color: rgba(57,3,120,.4);
+}
+
+.box2_description:hover{
+	opacity: 1;
+
+}
+
+.box3{
+	width: 330px;
+	height: 250px;
+	background-color: yellow;
+	left: 400px;
+	top: 530px;
+	overflow: hidden;
+}
+
+.box3 img{
+   display:block; /*remove inline-block spaces*/
+   margin:0 -29.138%;
+   width:133.275%;  
+}
+
+.box3_description{
+
+	width: 310px;
+	padding-left: 20px;
+	height: 240px;
+	padding-top: 10px;
+	font-family: Helvetica;
+	font-size: 50px;
+	font-weight: 700;
+	font-variant: small-caps;
+	left: 400px;
+	top: 530px;
+	color: white;
+	opacity: 0;
+	transition: all 0.2s linear;
+	background-color: rgba(57,3,120,.4);
+}
+
+.box3_description:hover{
+	opacity: 1;
+
+}
+
+.box4{
+	width: 330px;
+	height: 250px;
+	background-color: yellow;
+	left: 800px;
+	top: 530px;
+	overflow: hidden;
+}
+
+.box4 img{
+   display:block; /*remove inline-block spaces*/
+   margin:0 -29.138%;
+   width:133.275%;  
+}
+
+.box4_description{
+
+	width: 310px;
+	padding-left: 20px;
+	height: 240px;
+	padding-top: 10px;
+	left: 800px;
+	top: 530px;
+	font-family: Helvetica;
+	font-size: 50px;
+	font-weight: 700;
+	font-variant: small-caps;
+	color: white;
+	opacity: 0;
+	transition: all 0.2s linear;
+	background-color: rgba(57,3,120,.4);
+}
+
+.box4_description:hover{
+	opacity: 1;
+
+}
+
+.box5{
+	width: 330px;
+	height: 250px;
+	background-color: yellow;
+	left: 400px;
+	top: 830px;
+	overflow: hidden;
+}
+
+.box5 img{
+   display:block; /*remove inline-block spaces*/
+   margin:0 -29.138%;
+   width:133.275%;  
+}
+
+.box5_description{
+
+	width: 310px;
+	padding-left: 20px;
+	height: 240px;
+	padding-top: 10px;
+	left: 400px;
+	top: 830px;
+	font-family: Helvetica;
+	font-size: 50px;
+	font-weight: 700;
+	font-variant: small-caps;
+	color: white;
+	opacity: 0;
+	transition: all 0.2s linear;
+	background-color: rgba(57,3,120,.4);
+}
+
+.box5_description:hover{
+	opacity: 1;
+
+}
+
+
+.box6{
+	width: 330px;
+	height: 250px;
+	background-color: yellow;
+	left: 800px;
+	top: 830px;
+	overflow: hidden;
+}
+
+.box6 img{
+   display:block; /*remove inline-block spaces*/
+   margin:0 -29.138%;
+   width:133.275%;  
+}
+
+.box6_description{
+
+	width: 310px;
+	padding-left: 20px;
+	height: 240px;
+	padding-top: 10px;
+	left: 800px;
+	top: 830px;
+	font-family: Helvetica;
+	font-size: 50px;
+	font-weight: 700;
+	font-variant: small-caps;
+	color: white;
+	opacity: 0;
+	transition: all 0.2s linear;
+	background-color: rgba(57,3,120,.4);
+}
+
+.box6_description:hover{
+	opacity: 1;
+
+}
