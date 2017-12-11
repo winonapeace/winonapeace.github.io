@@ -1,0 +1,127 @@
+div{
+	position: absolute;
+}
+body{ background-color: black }
+
+a:link{
+	  text-decoration:  none;
+	color: white;
+}
+
+a:visited {
+  /* Applies to all visited links */
+  text-decoration:  none;
+  color:            white;
+  } 
+
+
+a:hover { 
+	color: yellow;
+	opacity: 1;
+	font-style: italic; 
+	transition: all 0.5s linear;
+}
+
+
+.header{
+	font-family: Helvetica, Sans-Serif;
+	font-size: 100px;
+	font-style: italic;
+	font-variant: small-caps;
+	font-weight: 700;
+	line-height: 26.4px;
+	color: white;
+	background-color: rgb(56,48,156);
+	width: 100%;
+	height: 100px;
+	top: 90px;
+
+}
+
+
+.List{
+	font-family: 'Tauri', Helvetica,  sans-serif;
+	top: 200px;
+	width: 350px;
+	height: 600px;
+	line-height: 40px;
+	color: white;
+	margin-left: 40px;
+
+
+}
+
+.List_bg{
+	background-color: rgb(70,70,70);
+	font-family: Helvetica;
+	top: 100px;
+	width: 300px;
+	height: 600px;
+	line-height: 40px;
+	background-color: rgb(26,22,93);
+	
+
+}
+
+.video_title{
+	top: 230px;
+	left: 400px;
+	font-family: Helvetica;
+	font-size: 50px;
+	font-weight: 700;
+	font-variant: small-caps;
+	color: white;
+}
+
+.video{
+	width: 660px;
+	height: 371.25px;
+	top: 300px;
+	left: 400px;
+}
+
+
+
+.previous{
+	padding-top: 15px;
+	padding-left: 15px;
+	width: 103px;
+	height: 30px;
+	font-family: Helvetica;
+	font-size: 15px;
+	font-weight: 400;
+	font-variant: ;
+	left: 400px;
+	top: 755px;
+	color: rgba(255,255,255,0.7);
+	transition: all 0.2s linear;
+	background-color: rgb(26,22,93);
+}
+
+.previous:hover{
+	background-color: rgb(56,48,156);
+	color: rgba(255,255,255,1);
+
+}
+
+
+
+.next{
+	padding-top: 15px;
+	padding-left: 15px;
+	width: 103px;
+	height: 30px;
+	font-family: Helvetica;
+	font-size: 15px;
+	font-weight: 400;
+	font-variant: ;
+	left: 950px;
+	top: 755px;
+	color: rgba(255,255,255,.7);
+	transition: all 0.2s linear;
+	background-color: rgb(26,22,93);
+}
+
+.next:hover {
+	background-color: rgb(56,48,156);
+	color: rgba(255,255,255,1);
