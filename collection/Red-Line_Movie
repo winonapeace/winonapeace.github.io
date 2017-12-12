@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<link rel="stylesheet" type="text/css" href="style_play-movie.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Tauri" rel="stylesheet">
+    <title>Red Line (Full Movie) | WATCHLIST</title>
+  </head>
+  <body>
+  	<div class="suggestions_bg"></div>
+   	<div class="video_title">Red Line (Full Movie)</div>
+  	<div class="video"><iframe width="640" height="360" src="https://www.youtube.com/embed/U2Um-_zp4Ao" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></IMG></div>
+  	<div class="box3"></div>
+  	<div class="box3_descripton">Drifters</div>
+  	<div class="box2"></div>
+  	<div class="box2_descripton">Gintama</div>
+  	<div class="box1"></div>
+  	<div class="box1_descripton">Red Line</div>
+  	<div class="List_bg"></div>
+   <div class="List">
+      <a href="index.html">Home</a> <br>
+   <a href="adventure.html">Adventure</a><br>   
+    <a href="comedy.html">Comedy</a><br>
+    <a href="drama.html">Drama</a><br>
+    <a href="fantasy.html">Fantasy</a><br>
+  <a href="historical.html">Historical</a><br>
+   <a href="horror.tml">Horror</a><br>
+    <a href="sci-fi.tml">Sci-Fi</a><br>
+    <a href="slice-of-life.html">Slice of Life</a><br>
+    </div>
+	<div class="header"> WATCHLIST</div>
+
+  </body>
+</html>      
+    
