@@ -1,0 +1,172 @@
+div{
+	position: absolute;
+}
+
+
+body{
+/*background:linear-gradient(#240182 77%, #4400c4 100%);*/
+background-color: #ff4262;
+ }
+
+a:link{
+	  text-decoration:  none;
+	color: #ffe9ee;
+}
+
+a:visited {
+  /* Applies to all visited links */
+  text-decoration:  none;
+  color:            #ffe9ee;
+  } 
+
+
+a:hover { 
+	color: white;
+	opacity: 1;
+	transition: all 0.2s linear;
+}
+
+.header{
+	font-family: Proxima Nova, Montserrat, Helvetica, Sans-Serif;
+	font-size: 40px;
+	font-style: italic;
+	font-variant: ;
+	font-weight: 800;
+	line-height: 100px;
+	color: rgba(255,255,255, 0.8);
+	background-color: rgba(255,66,98,0.8);
+	height: 50px;
+	top: -5px;
+	padding-top: 25px;
+
+	left: -0.5px;
+
+}
+
+.img_top {
+	max-width: 100%;
+	position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.img_g{
+	width: 100%;
+	height: 100%
+}
+
+.List1{
+	  width: 100%;
+	text-align: center;
+	top: 300px;
+	font-family: Proxima Nova, Montserrat, Helvetica, Sans-Serif;
+	font-size: 17px;
+	font-style: italic;
+	font-variant: ;
+	font-weight: 400;
+	line-height: 26.4px;
+	color: #ffe9ee;
+	background-color: rgba(56,48,156,0);
+
+}
+
+.List2{
+	  width: 100%;
+	text-align: center;
+	top: 420px;
+	font-family: Proxima Nova, Montserrat, Helvetica, Sans-Serif;
+	font-size: 17px;
+	font-style: italic;
+	font-variant: ;
+	font-weight: 400;
+	line-height: 26.4px;
+	color: #ffe9ee;
+	background-color: rgba(56,48,156,0);
+
+}
+
+
+.List3{
+	width: 100%;
+	text-align: center;
+	top: 540px;
+	font-family: Proxima Nova, Montserrat, Helvetica, Sans-Serif;
+	font-size: 17px;
+	font-style: italic;
+	font-variant: ;
+	font-weight: 400;
+	line-height: 26.4px;
+	color: #ffe9ee;
+	background-color: rgba(56,48,156,0);
+
+}
+
+.box1 {
+
+	width: 342px;
+	height: 5px;
+	top: -60px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+
+}
+
+.box2 {
+
+	width: 342px;
+	height: 5px;
+	top: -60px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+
+.box3 {
+
+	width: 342px;
+	height: 5px;
+	top: -60px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+
+.box4 {
+	width: 342px;
+	height: 5px;
+	top: 610px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+
+}
+
+.block{
+	height: 365px;
+	width: 342px;
+	background-color: rgba(255,66,98,0.6);
+	z-index: -1;
+	top: 15px;
+
+}
+
+.back{
+	width: 110px;
+	height: 32px;
+	left: 2%;
+	top: 1%;
+	font-family: Proxima Nova, Montserrat, Helvetica, Sans-Serif;
+	font-size: 50px;
+	font-style: ;
+	font-variant: ;
+	font-weight: 600;
+	color: rgba(255,255,255, 0.5);
+
+}
+
+.back a{
+	color: rgba(255,255,255, 0.6);
+}
+
