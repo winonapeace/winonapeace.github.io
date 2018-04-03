@@ -96,6 +96,7 @@ body {
     color: #ffe9ee;
     display: block;
     transition: 0.3s;
+    line-height: 45px;
 }
 
 .overlay span:hover, .overlay span:focus {
