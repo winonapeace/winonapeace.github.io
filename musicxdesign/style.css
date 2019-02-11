@@ -1,0 +1,239 @@
+html,body{
+	margin: 0;
+	padding:0;
+	background-color: #141414;
+	overflow-x: hidden;
+}
+
+body{
+	margin: auto;
+	font-family: 'Nunito Sans', 'Nunito', 'Helvetica', sans-serif;
+}
+
+.feature{
+	width: 100vw;
+	padding-top: 30px;
+	max-width: 684px;
+}
+
+
+h1{
+	font-family: 'Helvetica', sans-serif;
+	font-weight: 700;
+	color: #efefef;
+	width: 77vw;
+	max-width: 684px;
+	margin: auto;
+}
+
+p {
+	position: relative;
+	margin: auto;
+	font-family: henderson-sans-basic, 'Nunito Sans', 'Nunito', 'Helvetica', sans-serif;
+	max-width: 684px;
+	color: #efefef;
+	font-weight: 100;
+	font-size: 11pt;
+	line-height: 20pt;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 77vw;
+	max-width: 684px;
+}
+
+p a { color: #efefef;
+	text-decoration: none; 
+	border-bottom:4px solid #efef0c;
+	display: inline-block;
+  	line-height: 0.85;
+	text-shadow:
+    2px 2px #141414,
+    2px -2px #141414,
+    -2px 2px #141414,
+    -2px -2px #141414; }
+
+p a:hover {
+	text-decoration: none;
+	border-bottom:0;
+	line-height: 0;
+	text-shadow: 0;
+	color: #efef0c;
+}
+
+a:visited{
+	color: #efef0c;
+	text-decoration: none;
+}
+
+
+.menu {
+	position: absolute;
+	height: 50vw;
+	top: 270vw;
+	left: 12vw;
+
+}
+
+.cover-link{ text-decoration: none;
+	font-family: henderson-sans-basic,'Montserrat', 'Nunito Sans', 'Nunito', 'Helvetica', sans-serif;
+	color: #efefef;
+	font-size: 26px;
+	text-decoration: none;
+	border-bottom:0;
+	line-height: 0px;
+	text-shadow: 0;
+	z-index: 999;
+	padding-bottom: 60px
+
+
+}
+
+.menu li {
+	font-family: henderson-sans-basic,'Montserrat', 'Nunito Sans', 'Nunito', 'Helvetica', sans-serif;
+	color: #efef0c;
+	font-size: 26px;
+	text-decoration: none;
+	border-bottom:0;
+	line-height: 0px;
+	text-shadow: 0;
+	z-index: 999;
+	padding-bottom: 60px
+}
+
+.cover{
+	width: 100vw;
+	padding: 0;
+	overflow-x: hidden;
+
+}
+
+.top-nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 50px;
+	background-color: rgba(20,20,20,1);
+	z-index: 999;
+	font-family: henderson-sans-basic,'Montserrat', 'Helvetica', sans-serif;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #efef0c;
+}
+
+.home{
+	text-decoration: none;
+	border-bottom:0;
+	line-height: 0;
+	text-shadow: 0;
+}
+
+.mxd{
+	width: 25vw;
+	margin-left: 39vw;
+	margin-top: -1vw;
+	top: 0;
+}
+
+.nav{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100vw;
+	height: 50px;
+	background-color: #efef0c;
+	z-index: 999;
+	font-family: henderson-sans-basic, 'Montserrat', 'Helvetica', sans-serif;
+	padding-top: 27px;
+}
+
+.nav ul{
+	color: #141414;
+	margin: 0;
+	padding: 0;
+}
+
+.nav li{
+	list-style: none;
+	padding:0;
+	display:inline-block;
+	width: 11.1%;
+	margin-left: 11.1%;
+	font-size: 20px;
+
+}
+
+.chapter{
+	overflow: hidden;
+	color: #efefef;
+	padding-top: 30px;
+	padding-left: 11.5vw;
+	font-size: 50pt;
+	font-family: henderson-sans-basic, 'Nuito Sans', 'Nunito', 'Helvetica', sans-serif;
+	font-weight: 300;
+	margin-bottom: -5px;
+	margin-left: -7px;
+	height: 45px;
+	width: 77vw;
+	max-width: 684px;
+}
+
+.title{
+	border-top: 4px solid #efefef;
+	padding-top: 25px;
+	margin-top: 4px;
+}
+
+.byline{
+	color: #efefef;
+	font-size: 11px;
+	font-family: henderson-sans-basic, 'Nuito Sans', 'Nunito', 'Helvetica', sans-serif;
+	font-weight: 100;
+	width: 77vw;
+	padding-right: 10px;
+	padding-left: 11.5vw;
+}
+
+.tag {
+	font-family: henderson-sans-basic, 'Nuito Sans', 'Nunito', 'Helvetica', sans-serif;
+	font-size: 11px;
+	font-weight: 700;
+	color: #efefef;
+	width: 77vw;
+}
+
+
+.dropcap {
+	font-family: flood-std,'Permanent Marker', henderson-sans-basic, 'Nuito Sans', 'Nunito', 'Helvetica', sans-serif;
+	float: left;
+ 	font-size: 100px;
+ 	line-height: 30px;
+  	padding-right: 8px;
+}
+
+.blockquote{
+	background-color: #efef0c;
+	font-family: henderson-sans-basic, Helvetica, sans-serif;
+	width: 84vw;
+	max-width: 684px;
+	color: #141414;
+	font-size: 16pt;
+	font-weight: 700;
+	font-style: italic;
+	padding: 30px;
+}
+
+.caption{
+	font-family: henderson-sans-basic, 'Nunito Sans', 'Nunito', 'Helvetica', sans-serif;
+	max-width: 684px;
+	color: rgba(239,239,239,0.4);	
+	font-weight: 100;
+	font-size: 11pt;
+	line-height: 18pt;
+	padding-top: 5px;
+	padding-bottom: 30px;
+	width: 77vw;
+	margin: auto;
+}
+
+
