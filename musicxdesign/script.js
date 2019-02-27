@@ -5,9 +5,4 @@ $(document).ready(function(){
 		var newWd = (pctDone * 100)+"vw";
 		$(".progress").css("width",newWd);
 	});
-	$(".nav li a").each(function() {
-    if ((window.location.pathname.indexOf($(this).attr('href'))) > -1) {
-        $(this).addClass('current');
-    }
-});
 });

@@ -8,6 +8,9 @@ html,body{
 body{
 	margin: auto;
 	font-family: 'Nunito Sans', 'Nunito', 'Helvetica', sans-serif;
+	position: relative;
+	max-width: 375px;
+	overflow-y: hidden;
 }
 
 
@@ -32,7 +35,6 @@ p {
 	padding-top: 15px;
 	padding-bottom: 15px;
 	width: 77vw;
-	max-width: 684px;
 	z-index: 2;
 }
 
@@ -50,12 +52,16 @@ p a:hover {
 	color: #efef0c;
 }
 
-p a:visited{
+a:visited{
 	color: #efef0c;
 	text-decoration: none;
 	border-bottom:0;
 }
 
+
+.first-p {
+	margin-top: 14px;
+}
 
 .progress{
 	position: fixed;
@@ -73,7 +79,6 @@ p a:visited{
 	height: 50vw;
 	top: 50px;
 	left: 12vw;
-	padding-bottom: 200px
 
 }
 
@@ -104,17 +109,20 @@ p a:visited{
 }
 
 .cover{
-	width: 100vw;
+	width: 100%;
 	padding: 0;
 
 }
 
 .cover-logo{
 	position: absolute;
-	width: 77vw;
+	width: 77%;
 	vertical-align: center;
-	top: 40vh;
-	left: 12vw;
+	top: 50vh;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .tagline{
@@ -128,9 +136,12 @@ p a:visited{
 	line-height: 18pt;
 	padding-top: 20px;
 	padding-bottom: 15px;
-	width: 77vw;
-	top: 54vh;
-	left: 12vw;
+	width: 77%;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	top: 64vh;
 	max-width: 684px;
 	text-align: center;
 }
@@ -237,30 +248,29 @@ p a:visited{
 	list-style: none;
 	padding:0;
 	display:inline-block;
-	width: 10%;
-	margin-left: 10%;
 	font-size: 20px;
 
 }
 
-.nav li a{
+.nav a{
 	list-style: none;
 	padding:0;
 	display:inline-block;
-	width: 10%;
+	width: 8%;
 	margin:0;
 	font-size: 20px;
 	text-decoration: none;
 	color: #141414;
+	width: 8%;
+	margin-left: 8%;
 
 }
 
 .current{
     color: #efef0c;
     background:#141414;
-    padding: 0;
     border-radius: 25%;
-	list-style: none;
+	padding:0;
 	display:inline-block;
 	width: 10%;
 	margin-left: 0
