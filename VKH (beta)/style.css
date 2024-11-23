@@ -1,0 +1,16 @@
+html,body{
+	margin: 0;
+	padding:0;
+	background-color: #141414;
+	overflow-x: hidden;
+}
+
+body{
+	position: relative;
+	margin: auto;
+	overflow-y: hidden;
+}
+
+img{
+	width: 100vw;
+}
